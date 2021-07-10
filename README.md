@@ -22,7 +22,7 @@ Following show times of original code and refactored code for year year.
 ### 2017 original code time stamp
 https://github.com/LauraHaq/stock-analysis/blob/main/original%202017%20time%20pic.png
 ### 2017 refactored code time stamp
-
+https://github.com/LauraHaq/stock-analysis/blob/main/refactored%202017%20time%20pic.png
 ### 2018 original code time stamp
 
 ### 2018 refactored code time stamp
