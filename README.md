@@ -16,7 +16,7 @@ To refactor the code I created an array using "tickerIndex" to ask the computer 
 <br>&ensp; &ensp; tickerVolumes(tickerIndex)=tickerVolumes(tickerIndex) + Cells(i, 8).Value
 <br>&ensp; End if
 
-At first, I thought addtional lines of coding would take computer longer, but it made it quicker due to simplifying what I am asking the computer to do. The refactored code produced results over 90% faster than original. Final script is coded to allow for any additional lines of data as well as addtional years given that worksheets of data are added to the Excel file for each year. [All Stock Analysis with refactored and original codes](https://github.com/LauraHaq/stock-analysis/blob/main/VBA_Challenge.xlsm) 
+At first, I thought addtional lines of coding would take computer longer, but it made it quicker due to simplifying what I am asking the computer to do. The refactored code produced results nearly 90% faster than original. Final script is coded to allow for any additional lines of data as well as addtional years given that worksheets of data are added to the Excel file for each year. [All Stock Analysis with refactored and original codes](https://github.com/LauraHaq/stock-analysis/blob/main/VBA_Challenge.xlsm) 
 The following show screenshots of original code and refactored code for 2017 and then 2018.
 
 ### 2017 original code time stamp
