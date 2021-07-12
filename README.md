@@ -8,15 +8,16 @@ Steve wanted to analyze stocks from 2017 and 2018 to help his parents decide whi
 To refactor the code I created an array using "tickerIndex" to ask the computer to loop through data at a quicker pace than the original code. This change was used to find Total Volume as shown below and used same coding to find starting and ending prices.
 
 #### Example of original script to find volume
-If Cells(j, 1).Value = ticker Then
-  totalVolume=totalVolume+Cells(j,8).Value
-End if
+&ensp; If Cells(j, 1).Value = ticker Then
+<br>&ensp; &ensp; totalVolume=totalVolume+Cells(j,8).Value
+<br>&ensp; End if
 #### Example of refactored script to find volume
-If Cell(i, 1).Value = ticker Then
-  tickerVolumes(tickerIndex)=tickerVolumes(tickerIndex) + Cells(i, 8).Value
-  
-At first I through addtional lines of coding would take computer longer, but it made it quicker due to simplifying what I am asking the computer to do. The refactored code produced results over 90% faster than original. Final project [All Stock Analysis with refactored and original codes](https://github.com/LauraHaq/stock-analysis/blob/main/VBA_Challenge.xlsm)
-Following show times of original code and refactored code for year year.
+&ensp; If Cell(i, 1).Value = ticker Then
+<br>&ensp; &ensp; tickerVolumes(tickerIndex)=tickerVolumes(tickerIndex) + Cells(i, 8).Value
+<br>&ensp; End if
+
+At first, I thought addtional lines of coding would take computer longer, but it made it quicker due to simplifying what I am asking the computer to do. The refactored code produced results over 90% faster than original. Final script is coded to allow for any additional lines of data as well as addtional years given that worksheets of data are added to the Excel file for each year. [All Stock Analysis with refactored and original codes](https://github.com/LauraHaq/stock-analysis/blob/main/VBA_Challenge.xlsm) 
+The following show screenshots of original code and refactored code for 2017 and then 2018.
 
 ### 2017 original code time stamp
 ![2017 Original](https://github.com/LauraHaq/stock-analysis/blob/main/original%202017%20time%20pic.png)
